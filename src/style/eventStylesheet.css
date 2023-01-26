@@ -1,0 +1,38 @@
+.eventContainer {
+  position: relative;
+  background: lightcoral;
+  margin: 1%;
+  border-radius: 5px;
+  max-width: 400px;
+  min-height: 150px;
+  overflow: hidden;
+}
+
+.eventInfoList {
+  position: absolute;
+  top: 50%;
+  height: 50%;
+  width: 100%;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.photo {
+  position: absolute;
+  object-fit: cover;
+  height: 50%;
+  width: 100%;
+}
+
+.text {
+  font-size: 1em;
+  padding: 0.5%;
+  margin: 0.5%;
+  color: white;
+}
